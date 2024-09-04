@@ -1,6 +1,6 @@
 describe('SauceDemo Test', () => {
    
-  const devices = ['iphone-6'];//, 'ipad-2', 'macbook-15'];
+  const devices = ['iphone-x', 'ipad-2', 'macbook-15','samsung-s10'];
 
   devices.forEach(device => {
     it(`should work on ${device}`, () => {
